@@ -25,7 +25,7 @@
   </head>
   <body>
 <!--Navigation-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light navigation-display">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light navigation-display backgroundColor">
         <div class="container-fluid">
           <a class="navbar-brand h1 navigation-display" href="index.php">OUV - Shopping </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -54,7 +54,7 @@
         </div>
     </nav>
 <br><br>
-<div class="container-fluid navigation-display">
+<div class="container-fluid navigation-display backgroundColor">
     <div class="row flex-row navigation-display">
         <div class="d-flex justify-content-start navigation-display">
             <img class="img-overlay" src="images/car.png" width = "100%" height="100%">
@@ -126,7 +126,7 @@
 ?><?php if(isset($_GET['loginwrong']))
 {
   echo "<div class='alert alert-danger alert-dismissible fade show' role='alert'>
-  <strong>The Entered Username Or PAssword is Wrong</strong>
+  <strong>The Entered Username Or Password is Wrong</strong>
   <button type='button' class='close' data-dismiss='alert' aria-label='Close'>
     <span aria-hidden='true'>&times;</span>
   </button>
